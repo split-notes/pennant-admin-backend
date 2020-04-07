@@ -7,7 +7,6 @@ import (
 
 type ServerConfiguration struct {
 	SrvPort string `json:"SERVER_PORT"`
-	SrvSecretsFile string `json:"SECRETS_FILE"`
 }
 
 func GetServerConfig(vipe viper.Viper) ServerConfiguration {

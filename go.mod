@@ -3,6 +3,7 @@ module github.com/split-notes/pennant-admin-backend
 go 1.13
 
 require (
+	github.com/bmsandoval/kubert v0.0.0-20200325231830-c8f758eb71b5 // indirect
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/mock v1.4.3
 	github.com/golang/protobuf v1.3.5

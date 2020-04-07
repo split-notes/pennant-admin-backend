@@ -6,8 +6,8 @@ package services_mocks
 
 import (
 	context "context"
-	grpc_service "github.com/split-notes/pennant-admin-backend/services/grpc_service"
 	gomock "github.com/golang/mock/gomock"
+	grpc_service "github.com/split-notes/pennant-admin-backend/services/grpc_service"
 	grpc "google.golang.org/grpc"
 	reflect "reflect"
 )
